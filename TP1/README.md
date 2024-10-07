@@ -1,6 +1,6 @@
 # TP1 : Les premiers pas de bébé B1
 
-                        ## Sommaire
+## Sommaire
 
 - [TP1 : Les premiers pas de bébé B1](#tp1--les-premiers-pas-de-bébé-b1)
   - [Sommaire](#sommaire)
