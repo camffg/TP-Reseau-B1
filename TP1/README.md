@@ -1,6 +1,6 @@
 # TP1 : Les premiers pas de bébé B1
 
-## Sommaire
+##Sommaire
 
 - [TP1 : Les premiers pas de bébé B1](#tp1--les-premiers-pas-de-bébé-b1)
   - [Sommaire](#sommaire)
@@ -85,8 +85,28 @@ Address: 77.247.179.90
 
 🌞 **Livrez un deuxième fichier : `dns.pcap`**
 
+[Capture Wireshark](ip.pcap)
+
 # IV. Network scanning et adresses IP
 
 🌞 **Effectue un scan du réseau auquel tu es connecté**
 
+ ```bsh
+ nmap -sn -PR  10.33.78.91  
+Starting Nmap 7.95 ( https://nmap.org ) at 2024-10-07 11:24 CEST
+Nmap scan report for 10.33.78.91
+Host is up (0.00033s latency).
+Nmap done: 1 IP address (1 host up) scanned in 0.17 seconds
+cameronlefevre@Ordinateur-portable-de-cameron ~ % 
+```
+
 🌞 **Changer d'adresse IP**
+
+```bsh
+en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=6460<TSO4,TSO6,CHANNEL_IO,PARTIAL_CSUM,ZEROINVERT_CSUM>
+	ether 50:a6:d8:9b:0b:a7
+	inet6 fe80::18ba:907e:34e9:7acc%en0 prefixlen 64 secured scopeid 0xc 
+	inet 10.33.78.92 netmask 0xfffff000 broadcast 10.33.79.255
+	nd6 options=201<PERFORMNUD,DAD>
+  ```
