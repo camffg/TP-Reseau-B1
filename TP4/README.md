@@ -38,10 +38,8 @@ Si ça fonctionne, t'as internet. Paf.
 
 ☀️ **Capturez un échange DHCP complet**
 
-- capture `dhcp.pcap`
-- il y a 4 trames (le DORA) : Discover, Offer, Request, Acknowledge
+[capture wireshark](dhcp.pcap)
 
-> **Soucis** : l'échange DHCP complet ne se produit qu'à la première connexion. **Pour forcer un échange DHCP**, ça dépend de votre OS. Sur **GNU/Linux**, avec `dhclient` ça se fait bien. Sur **Windows**, le plus simple reste de définir une IP statique pourrie sur la carte réseau, se déconnecter du réseau, remettre en DHCP, se reconnecter au réseau (ché moa sa march). Essayez de regarder par vous-mêmes s'il existe une commande clean pour faire ça ! Sur **MacOS**, je connais peu mais Internet dit qu'c'est po si compliqué, appelez moi si besoin.
 
 ☀️ **Directement dans Wireshark, vous pouvez voir toutes les infos que vous donne  le serveur DHCP**
 
